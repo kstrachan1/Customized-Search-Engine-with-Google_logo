@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/adv.css" />
+    <title>Advance Images Search</title>
+  </head>
+
+  <body>
+    <img
+      src="./images/Google_Images.svg"
+      alt="Google Advance Search"
+      width="400px"
+    />
+
+    <form action="http://www.google.com/images?q" name="q">
+      <a href="./google_images.html"
+        ><img
+          src="./images/google_icon.png"
+          alt="google icon"
+          width="60px"
+          id="icon" /></a
+      ><br /><br />
+      <div class="main">
+        <div>Find pages with......</div>
+        <br />
+
+        <div>
+          <div class="field">
+            <label for="field1">all these words:</label>
+            <input
+              type="text"
+              class="textinput"
+              id="field1"
+              value=""
+              name="as_q"
+            />
+          </div>
+        </div>
+        <br />
+
+        <div class="field">
+          <label for="field2">this exact word or phrase: </label>
+          <input
+            type="text"
+            class="textinput"
+            id="field2"
+            value=""
+            name="as_epq"
+          />
+        </div>
+        <br />
+
+        <div class="field">
+          <label for="field3">any of this words: </label>
+          <input type="text" class="textinput" id="field3" name="as_oq" />
+        </div>
+        <br />
+
+        <div class="field">
+          <label for="field4">none of these words: </label>
+          <input type="text" class="textinput" id="field4" name="as_eq" />
+        </div>
+        <br />
+
+        <div class="field">
+          <label for="field5">numbers ranging from: </label>
+          <input type="text" class="textinput1" id="field5" name="as_nlo" />
+          <span class="seperator">to</span>
+          <input type="text" class="textinput2" id="field6" name="as_nhi" />
+        </div>
+        <br />
+
+        <button type="submit" style="align-self: right">Advanced Search</button>
+      </div>
+    </form>
+  </body>
+</html>

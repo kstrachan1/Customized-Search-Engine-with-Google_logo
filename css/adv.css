@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  align-items: center;
+}
+
+#icon {
+  transition: 0.4s;
+}
+#icon:hover {
+  transform: scale(1.5);
+}
+
+.main {
+  position: relative;
+  display: inline-block;
+  justify-content: space-between;
+}
+.field {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+}
+
+button[type="submit"] {
+  border: gray solid 1px;
+  border-radius: 3px;
+  background-color: #4c8af5a2;
+  width: 30%;
+  height: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #4c8af5d8;
+}
+
+#field1, #field2, #field3, #field4, #field5, #field6{
+  border: 1px rgba(173, 170, 170, 0.295) solid;
+  border-radius: 2px;
+  display: flex;
+  position: relative;
+}
+
+#field1:hover, #field2:hover, #field3:hover, #field4:hover, #field5:hover, #field6:hover{
+  border: 1px rgba(95, 94, 94, 0.274) solid;
+}
+
+.textinput {
+  width: 60%;
+}
+
+.textinput1,
+.textinput2 {
+  width: 20%;
+}
